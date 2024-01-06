@@ -18,7 +18,7 @@
     "moduleResolution": "node",  //决定编译器的工作方式
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": true, 
     "jsx": "react-jsx"
   },
   "include": [
