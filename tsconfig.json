@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "noImplicitAny": false,
+    "target": "es5",  //编译后目标js版本 若不是给浏览器看的 可以选择es6
     "lib": [
-      "dom",
+      "dom", 
       "dom.iterable",
       "esnext"
-    ],
-    "allowJs": true,
+    ], //库文件列表 
+    "allowJs": true, //允许混合编译js
     "skipLibCheck": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true,  //允许使用commonjs的方式import
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "esnext",  //代码的模块系统
+    "moduleResolution": "node",  //决定编译器的工作方式
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
